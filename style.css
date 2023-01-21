@@ -1,0 +1,350 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 30px;
+  font-family: "Satoshi", sans-serif;
+}
+
+.profile {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  background-color: white;
+  height: 86px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile_ {
+  width: 50px;
+  height: 50px;
+  margin-right: 15px;
+  background-color: white;
+}
+.text h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.text h2 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.text p {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  color: #5f5f5f;
+}
+
+.chart {
+  padding: 20px;
+  padding-bottom: 35px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+.chart h1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.chart_img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.chart h2 {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.details h2 {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.details p {
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  color: #767070;
+}
+
+.details {
+  margin-top: 10px;
+  display: flex;
+  background-color: white;
+}
+
+.loctaion,
+.industry,
+.company {
+  margin-left: 30px;
+}
+
+.connection,
+.followers,
+.impressions {
+  padding-top: 16.5px;
+  padding-bottom: 16.5px;
+  height: 91px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+.connection h1,
+.followers h1,
+.impressions h1 {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.appearances {
+  padding: 20px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 25px;
+  background-color: white;
+}
+
+.appearances h1 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.side_by_side {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text_search {
+  margin-right: 40px;
+  text-align: center;
+}
+
+.text_search h1 {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+}
+.text_search p {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 15px;
+  color: #5fbe51;
+}
+
+.keywords {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-solid {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.keywords_one,
+.keywords_two,
+.keywords_three {
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.keywords_one .fa-solid {
+  color: #112d4e;
+}
+
+.keywords_two .fa-solid {
+  color: #3f72af;
+}
+
+.keywords_three .fa-solid {
+  color: #dbe2ef;
+}
+
+.connection span,
+.impressions span {
+  color: #f65858;
+}
+
+.followers span {
+  color: #5fbe51;
+}
+
+@media only screen and (min-width: 800px) {
+  .content {
+    display: flex;
+    justify-content: center;
+    max-width: 1060px;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    background-color: white;
+  }
+  .two_section {
+    display: flex;
+    width: 100%;
+  }
+  .connection,
+  .followers {
+    width: 210px;
+  }
+  .connection {
+    margin-right: 24px;
+  }
+  .content .left {
+    margin-right: 24px;
+  }
+  .left,
+  .right {
+    flex-basis: 50%;
+    max-width: 444px;
+    width: 100%;
+  }
+  .text h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .text h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .profile_ {
+    width: 65px;
+    height: 65px;
+    margin-right: 25px;
+  }
+  .chart h1 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .chart_img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .chart h2 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .details h2 {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .details p {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #767070;
+  }
+  .loctaion,
+  .industry,
+  .company {
+    margin-left: 15px;
+  }
+  .connection h1,
+  .followers h1,
+  .impressions h1 {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+
+  .appearances h1 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .text_search h1 {
+    margin-bottom: 6px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .text_search p {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5fbe51;
+  }
+  .appearances {
+    padding-left: 40px;
+    padding-right: 10px;
+  }
+
+  .keywords_one,
+  .keywords_two,
+  .keywords_three {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9d8ce;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    height: 100vh;
+  }
+}
